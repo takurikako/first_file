@@ -73,7 +73,7 @@ class MotorControlNode(Node):
         )
 
         self.target_object = (
-            "green circle"  # "green circle"  "red triangle"        # 추적할 객체 이름
+            "red circle"  # "green circle"  "red triangle"        # 추적할 객체 이름
         )
         self.object_detected = False  # 객체 탐지 여부
         self.target_x = None  # 화면에서의 객체 중심 X좌표
